@@ -1,26 +1,26 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
+# GrammarStudios - Static Site
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This is a basic static site that uses the [Landing Page][landing-page] theme by [Start Bootstrap][start-bootstrap].
 
 ## Getting Started
 
-To use this template, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+To easily see the site:
 
-## Bugs and Issues
+1. Open your terminal - hit command + space, type "iterm", and hit enter
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
+2. Change into the directory that houses the project
 
-## Creator
+```
+$ cd ~/Projects/grammarstudios-static
+```
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+3. Run the `python` `SimpleHTTPServer` to view the page in your browser
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+```
+$ python -m SimpleHTTPServer
+```
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+4. Open a browser and go to http://localhost:8000/
 
-## Copyright and License
-
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+[landing-page]: http://startbootstrap.com/template-overviews/landing-page/
+[start-bootstrap]: http://startbootstrap.com/
