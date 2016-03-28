@@ -27,7 +27,12 @@ $(function() {
 		});
 	}
 
+	function Copyright() {
+		$('.copyright .year').html((new Date()).getFullYear());
+	}
+
 	Navbar();
 	PageScroll();
+	Copyright();
+
 });
-// })(window, document, $);

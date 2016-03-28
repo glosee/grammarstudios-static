@@ -194,11 +194,35 @@ p.copyright {
 	line-height: 1.5;
 }
 
+.col-icon-jumbo {
+	margin-top: 2em;
+}
+
+.icon-jumbo {
+	display: block;
+	font-size: 14em;
+	width: 100%;
+	height: auto;
+}
+
 @media(min-width:767px) {
 		.content-section {
 				padding: 200px 0;
 		}
 		.content-section p {
 			line-height: 1.6;
+		}
+		.col-icon-jumbo {
+			margin-top: 5em;
+		}
+		.icon-jumbo {
+			font-size: 20em;
+		}
+		/* Make service rows center content */
+		.row-service {
+		  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+		  min-height: 50vh; /* These two lines are counted as one :-)       */
+		  display: flex;
+		  align-items: center;
 		}
 	}
