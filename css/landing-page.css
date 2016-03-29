@@ -180,10 +180,6 @@ p.copyright {
 	line-height: 1.5;
 }
 
-.section-about {
-
-}
-
 .section-about h2 {
 	text-transform: uppercase;
 	margin: 0 0 35px;
@@ -212,10 +208,41 @@ footer a {
 	color: #777;
 }
 
+footer a:hover,
+.btn-link:hover {
+	text-decoration: none;
+}
+
+.btn-link:hover {
+	color: #777;
+}
+
 .link-contact {
 	color: white;
 	font-size: 1.6em;
 	text-transform: capitalize;
+}
+
+.social-links {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social-links li {
+	float: left;
+	padding-left: 10px;
+}
+
+.social-links li .btn-link {
+	display: block;
+	padding: 15px 15px 15px 10px;
+	line-height: 20px;
+	margin: 0;
+	font-size: 18px;
+}
+
+.navbar-spacer {
+	font-weight: 200;
 }
 
 @media(min-width:767px) {
@@ -233,9 +260,14 @@ footer a {
 		}
 		/* Make service rows center content */
 		.row-service {
-		  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-		  min-height: 50vh; /* These two lines are counted as one :-)       */
-		  display: flex;
-		  align-items: center;
+		  	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+		  	min-height: 50vh;
+		  	display: flex;
+		  	align-items: center;
 		}
+		.social-links li .btn-link {
+			font-size: 14px;
+			padding: 15px 10px;
+		}
+
 	}
