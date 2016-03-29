@@ -208,7 +208,18 @@ p.copyright {
 	height: auto;
 }
 
+/* misc */
+
 footer a {
+	color: #777;
+}
+
+footer a:hover,
+.btn-link:hover {
+	text-decoration: none;
+}
+
+.btn-link:hover {
 	color: #777;
 }
 
