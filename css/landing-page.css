@@ -258,6 +258,10 @@ footer a:active {
 	text-transform: capitalize;
 }
 
+.link-contact .network-name {
+	margin-left: 4px;
+}
+
 .email-link {
 	display: block;
 	line-height: 20px;

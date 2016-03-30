@@ -33,8 +33,8 @@ $(function() {
 
 	function ObfuscatedEmail() {
 
-		function createEls(link, inclText) {
-			var $a = $('<a href="mailto:'+link+'">');
+		function createLinkEl(href, inclText) {
+			var $a = $('<a href="mailto:'+href+'">');
 			var $i = $('<i class="fa fa-envelope-o"></i></a>');
 			$a.append($i);
 			if(inclText) {
@@ -43,7 +43,6 @@ $(function() {
 			}
 			return $a;
 		}
-		// <a href="mailto:hello@grammarstudios.com?subject=Hello,%20Grammar" class="btn-link link-contact"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Email</span></a>
 
 		var
 			coded = 'BMXXD@ayuvvuynKkf2Dn.ADv',
@@ -63,8 +62,8 @@ $(function() {
 			}
 		}
 
-		$('.link-email').append(createEls(link));
-		$('.link-contact').append(createEls(link, true));
+		$('.link-email').append(createLinkEl(link));
+		$('.link-contact').append(createLinkEl(link, true));
 	}
 
 	Navbar();
