@@ -1,0 +1,25 @@
+{
+  "name": "grammarstudios-static",
+  "version": "0.0.1",
+  "description": "Static single page site for Grammar Studios",
+  "main": "index.html",
+  "scripts": {
+    "build-prod": "./node_modules/.bin/uglifyjs js/main.js -o js/main.min.js -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glosee/grammarstudios-static.git"
+  },
+  "author": "Graham Losee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glosee/grammarstudios-static/issues"
+  },
+  "homepage": "https://github.com/glosee/grammarstudios-static#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
